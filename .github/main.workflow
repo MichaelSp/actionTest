@@ -4,6 +4,6 @@ workflow "New workflow" {
 }
 
 action "Test1" {
-  uses = "/MichaelSp/actionRunner@master"
+  uses = "MichaelSp/actionRunner@master"
   args = "--version"
 }
