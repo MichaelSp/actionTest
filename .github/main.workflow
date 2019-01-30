@@ -1,9 +1,9 @@
 workflow "New workflow" {
   on = "push"
-  resolves = ["CoDePipeS"]
+  resolves = ["Test1"]
 }
 
-action "CoDePipeS" {
+action "Test1" {
   uses = "/MichaelSp/actionRunner@master"
   args = "--version"
 }
